@@ -14,4 +14,4 @@ Next, to lint `src`, run the `lint:src` script in all the directories.
 
 Finally, to lint `test`, run the `lint:test` script in all the directories.
 `pnpm recursive run lint:test --no-bail`. Only
-`xo-0.45-with-typescript-eslint-5` should pass. Others are affected by the bug.
+`xo-0.45-with-typescript-eslint-4` should pass. Others are affected by the bug.

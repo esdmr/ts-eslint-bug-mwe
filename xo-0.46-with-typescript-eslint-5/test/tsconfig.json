@@ -1,4 +1,7 @@
 {
+	"buildOptions": {
+		"composite": true
+	},
 	"references": [
 		{
 			"path": "../src/tsconfig.json"

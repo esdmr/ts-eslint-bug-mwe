@@ -1,0 +1,13 @@
+{
+	"private": true,
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.33.0",
+		"@typescript-eslint/parser": "^4.33.0",
+		"eslint": "^7.0.0",
+		"typescript": "^4.4.4"
+	},
+	"scripts": {
+		"lint:src": "eslint src -c .src.eslintrc.cjs --ext .js,.jsx,.ts,.tsx",
+		"lint:test": "eslint test -c .test.eslintrc.cjs --ext .js,.jsx,.ts,.tsx"
+	}
+}

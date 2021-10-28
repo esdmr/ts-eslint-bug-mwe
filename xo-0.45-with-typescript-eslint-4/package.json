@@ -1,0 +1,10 @@
+{
+	"private": true,
+	"devDependencies": {
+		"xo": "0.45.0"
+	},
+	"scripts": {
+		"lint:src": "xo src",
+		"lint:test": "xo test"
+	}
+}

@@ -1,0 +1,8 @@
+.pnpm-debug.log
+**/src/*.js
+**/test/*.js
+/src
+/test
+node_modules
+package-lock.json
+pnpm-lock.yaml

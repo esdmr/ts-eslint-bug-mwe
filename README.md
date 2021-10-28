@@ -7,11 +7,11 @@ either `eslint` or `xo`. `src` and `test` are the same in all the directories.
 
 To run the tests, first install all the dependencies. I will use `pnpm` here,
 but the package manager should not matter. Running `pnpm recursive install` will
-install all for all the directories.
+install all the directories.
 
 Next, to lint `src`, run the `lint:src` script in all the directories.
 `pnpm recursive run lint:src`. All the directories should lint with no failures.
 
-Finally, to lint `src`, run the `lint:test` script in all the directories.
+Finally, to lint `test`, run the `lint:test` script in all the directories.
 `pnpm recursive run lint:test --no-bail`. Only
 `xo-0.45-with-typescript-eslint-5` should pass. Others are affected by the bug.
